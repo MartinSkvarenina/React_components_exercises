@@ -11,7 +11,8 @@ export default function MyButton({ ButtonName }) {
             onClick={function() {
                 //window.alert('Bolo kliknute na tlačítko: ${ButtonName}');
                 setCounter(counter + 1);
-                    showText ? setShowText(false) : setShowText(true)
+
+                setShowText(!showText);
         }}>
             {ButtonName}
         </button>
