@@ -12,7 +12,7 @@ export default function MyButton({ ButtonName }) {
                 //window.alert('Bolo kliknute na tlačítko: ${ButtonName}');
                 setCounter(counter + 1);
 
-                setShowText(!showText);
+                setShowText(!showText)
         }}>
             {ButtonName}
         </button>
