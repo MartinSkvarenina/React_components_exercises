@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import MyButton from "./sharedComponents/myButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginTop:'20px', marginLeft:'20px'}}>
+      <MyButton ButtonName='Tlačítko 1'/>
+      <MyButton ButtonName='Tlačítko 2'/>
+      <MyButton ButtonName='Tlačítko 3'/>
     </div>
   );
 }
